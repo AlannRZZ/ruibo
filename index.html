@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ruibo</title>
-  <link rel="icon" href="img/logoruibo.jpg" type="image/jpg" >
+  <link rel="icon" href="img/logoruibo.jpg" type="image/jpg">
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/66b717063d.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
@@ -15,14 +16,15 @@
       <ul>
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#menu">Menú</a></li>
-        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#ubicacion">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="inicio" class="inicio">
-    <h2>Comida casera hecha con amor</h2>
-    <p>Descubre nuestros platos preparados con ingredientes frescos.</p>
+  <section id="inicio" class="sobre-nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Ruibo es un negocio familiar ubicado en Córdoba Capital, comprometido con ofrecerte comidas caseras, 
+      sabrosas y abundantes. Somos tu mejor elección.</p>
   </section>
 
   <section id="menu" class="menu">
@@ -46,15 +48,37 @@
     </div>
   </section>
 
-  <section id="contacto" class="contacto">
-    <h2>Contacto</h2>
+  <section id="ubicacion" class="ubicacion">
+    <h2>Dónde Encontrarnos</h2>
     <p>📍 Calle Mariano Boedo 2664</p>
-    <p>📞 +54 9 351718-7604</p>
-    <p>✉️ ruiborotiseria@correo.com</p>
+    <div class="mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3434.7003053901734!2d-64.2236534243475!3d-31.3973920742924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2bb48c682c3%3A0xb3c3d2aebce285dc!2sMariano%20Boedo%202664%2C%20X5014%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1716834072446!5m2!1ses!2sar"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <a href="https://maps.app.goo.gl/UxA3Yy2Gan11Mhfe9"
+       target="_blank" class="btn-como-llegar" rel="noopener noreferrer">
+      <i class="fa-solid fa-location-dot"></i> Cómo llegar
+    </a>
+  </section>
+
+  <section class="social-media">
+    <h2>Síguenos en redes</h2>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/tuPagina" target="_blank" class="fa-brands fa-facebook" aria-label="Facebook"></a>
+      <a href="https://www.instagram.com/ruibo_rotiseria" target="_blank" class="fa-brands fa-instagram" aria-label="Instagram"></a>
+      <a href="https://wa.me/543517187604" target="_blank" class="fa-brands fa-whatsapp" aria-label="WhatsApp"></a>
+    </div>
   </section>
 
   <footer>
     <p>&copy; 2025 Ruibo Rotisería. Todos los derechos reservados.</p>
   </footer>
+
+  <a href="https://wa.me/543517187604" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
 </body>
 </html>
